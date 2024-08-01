@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glimmer & Grunge</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #f0f0f0;
+            background-color: #1a1a1a;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #3b0a45;
+            color: #d3a0d8;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 3px solid #d3a0d8;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #2c0932;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #d3a0d8;
+            text-decoration: none;
+            padding: 14px 20px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            background-color: #3b0a45;
+            border-radius: 4px;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #2c0932;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #3b0a45;
+            color: #d3a0d8;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            border-top: 3px solid #d3a0d8;
+        }
+        h1, h2 {
+            color: #d3a0d8;
+        }
+        p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Glimmer & Grunge</h1>
+        <p>Your go-to shop for unique and stylish merchandise</p>
+    </header>
+
+    <nav>
+        <a href="#shop-all">Shop All</a>
+        <a href="#shop-shirts">Shop Shirts</a>
+        <a href="#shop-cups">Shop Cups</a>
+    </nav>
+
+    <section id="shop-all">
+        <h2>Shop All</h2>
+        <p>Browse through our entire collection of stylish and edgy merchandise. Find everything from shirts to cups, all designed with a unique grunge twist.</p>
+    </section>
+
+    <section id="shop-shirts">
+        <h2>Shop Shirts</h2>
+        <p>Explore our collection of shirts that combine cute and grungy elements. Perfect for any occasion, our shirts will make you stand out from the crowd.</p>
+    </section>
+
+    <section id="shop-cups">
+        <h2>Shop Cups</h2>
+        <p>Check out our range of cups that add a touch of personality to your daily routine. Ideal for your favorite beverages, these cups blend grunge aesthetics with cute designs.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Glimmer & Grunge. All rights reserved.</p>
+    </footer>
+</body>
+</html>
